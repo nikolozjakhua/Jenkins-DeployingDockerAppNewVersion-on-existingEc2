@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        string(name: 'VERSION', defaultVaule: '', description: "Version to Build")
+        string(name: 'VERSION', defaultValue: '', description: "Version to Build")
     }
     stages {
         stage ("build image") {
