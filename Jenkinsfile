@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven'
-    }
     parameters {
         string(name: 'VERSION', defaultVaule: '', description: "Version to Build")
     }
